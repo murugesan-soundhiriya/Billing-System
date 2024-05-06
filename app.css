@@ -1,0 +1,127 @@
+*{
+  background-color: #beeffe;
+ }
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #08010c;
+  text-align: center;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item span {
+  font-size: 18px;
+}
+
+.menu-item button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+  background-color: #45a049;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+button.process-payment {
+  background-color: #0cc0fd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+
+button.process-payment:hover {
+  background-color: #ec1c1c;
+}
+button.checkout-button{
+  background-color: #010608;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button.print-receipt{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+button.pay{
+   background-color: #091061;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+   margin-top: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+button.receipt{
+  background-color:#4caf50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+   margin-top: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}                       
